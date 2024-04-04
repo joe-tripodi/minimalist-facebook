@@ -17,8 +17,14 @@
   },
   "content_scripts": [
     {
-      "matches": ["<all_urls>"],
-      "js": ["content.js"]
+      "matches": ["https://*.facebook.com/*"],
+      "js": ["minimalise.js", "scripts/showBody.js"],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": ["https://*.facebook.com/*"],
+      "js": ["scripts/removeTitle.js", "scripts/hideBody.js"],
+      "run_at": "document_start"
     }
   ]
 }
