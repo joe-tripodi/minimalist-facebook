@@ -1,9 +1,8 @@
 {
   "manifest_version": 3,
   "version": "0.0.0",
-  "name": "Minimalist Facebok",
-  "description": "The Digital Minimalist approach to Facebook. Block news feed,
-                  remove notification badges and more.",
+  "name": "Minimalist Facebook",
+  "description": "The Digital Minimalist approach to Facebook. Block news feed, remove notification badges and more.",
   "permissions": [
     "activeTab",
     "storage",
